@@ -12,8 +12,8 @@ const ContactOption = () => {
                             <div className="contact-icon">
                                 <i> <RiMapPinLine size={20} /></i>
                             </div>
-                            <h2>our office:</h2>
-                            <p>Jurain,Dhaka Bangladesh</p>
+                            <h2>Location:</h2>
+                            <p>Hyderabad, India</p>
                         </div>
                     </SlideUp>
                     <SlideUp delay={3}>
@@ -21,8 +21,8 @@ const ContactOption = () => {
                             <div className="contact-icon">
                                 <i> <RiPhoneLine size={20} /></i>
                             </div>
-                            <h2>contact number:</h2>
-                            <p>+1234321321</p>
+                            <h2>Contact Number:</h2>
+                            <p><a href="tel:+9491169616" style={{color: 'inherit', textDecoration: 'none'}}>+91 9491169616</a></p>
                         </div>
                     </SlideUp>
                     <SlideUp delay={4}>
@@ -30,8 +30,8 @@ const ContactOption = () => {
                             <div className="contact-icon">
                                 <i> <RiMailLine size={20} /></i>
                             </div>
-                            <h2>Email us:</h2>
-                            <p>websitename@mail.com</p>
+                            <h2>Email:</h2>
+                            <p><a href="mailto:n.avavinash@gmail.com" style={{color: 'inherit', textDecoration: 'none'}}>n.avavinash@gmail.com</a></p>
                         </div>
                     </SlideUp>
                 </div>
